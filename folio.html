@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <style>
+        .card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            box-sizing: border-box;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+    <style>
+        .card-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 48%;
+            /* Adjust the width as needed */
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        #cr-img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architha portfolio</title>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <!--Background Animé - Particles.js-->
+    <!--Header-->
+    <header class="dark">
+        <div class="container--left">
+            <img src="https://i.ibb.co/qBznzC3/Screenshot-2023-11-15-204202-removebg-preview.png" alt="Logo">
+            <!--Logo-->
+            <div class="container--left--text">
+                <h2><a href="index.html">Architha Jorrigala</a></h2>
+                <p></p>
+            </div>
+        </div>
+        <div class="container--right">
+            <div class="menu--icon" id="nav-toggle">
+                <!--Menu Mobile-->
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav id="nav-menu">
+                <!--Navbar Menu-->
+                <ul>
+                    <!--Nav-->
+                    <li data-aos="fade-left" data-aos-delay="50"><a href="#about">What I do</a></li>
+                    <li data-aos="fade-left" data-aos-delay="100"><a href="#services">Projects</a></li>
+                    <li data-aos="fade-left" data-aos-delay="150"><a href="#portfolio">Certification</a></li>
+
+                </ul>
+            </nav>
+            <div class="reseaux">
+                <!--Réseaux sociaux-->
+                <ul>
+                    <li data-aos="fade-left" data-aos-delay="250"><a href="https://github.com/Architha114"><i class="fab fa-github"></i></a></li>
+                    <li data-aos="fade-left" data-aos-delay="300"><a href="https://www.linkedin.com/in/architha-jorrigala-430595278/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li data-aos="fade-left" data-aos-delay="350"><a href="mailto:architha.jorrigala@gmail.com"><i class="far fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Section Home - Herobanner-->
+    <section class="dark" id="home">
+        <!--Class .dark-->
+        <div class="container--central">
+            <!--Container central-->
+            <img src="https://i.ibb.co/4fS58hq/Screenshot-2023-11-13-225950-removebg-preview.png" id="my-img" />
+            <h1 data-aos="fade-up" data-aos-delay="100">Front-end Developer</h1>
+            <!--Main-title-->
+            <p data-aos="fade-up" data-aos-delay="150">Hello! I'm Architha, a frontend developer passionate about creating captivating user interfaces and leveraging the latest technologies to build seamless web experiences. /p>
+            <p data-aos="fade-up" data-aos-delay="200">Let's bring your ideas to life with clean, efficient, and visually appealing code! 💻✨<< /p>
+
+                    <div class="chevron" data-aos="fade-up" data-aos-delay="300">
+                        <!--Chevron Scroll Animé-->
+                        <i class="fas fa-chevron-circle-down icon-orange"></i>
+                    </div>
+        </div>
+    </section>
+    <!--Section A propos-->
+    <section class="light" id="about">
+        <!--Class .light-->
+        <div class="title">
+            <!--Titres-->
+            <p class="sub-title">What i do</p>
+            <!--Sous-titre-->
+            <h2></h2>
+        </div>
+        <div class="container">
+            <!--Container-->
+            <img src="https://img.freepik.com/premium-psd/3d-cartoon-character-illustrator-girl_512531-20.jpg" alt="Portrait Ginox, Développeur Web">
+            <div class="container--about">
+                <p>I specialize in developing responsive and intuitive frontend interfaces, utilizing technologies like HTML, CSS, and JavaScript. My expertise extends to frameworks such as
+                    React.js and Vue.js, ensuring scalable and high-performance applications.
+                    With a focus on clean code and collaborative teamwork, I strive to enhance user experiences through innovative design solutions.</p>
+            </div>
+        </div>
+    </section>
+    <!--Section projects-->
+    <section class="dark" id="services">
+        <!--Class .dark-->
+
+        <h2>My Projects</h2>
+        <div class="container--services">
+            <!--Container Services Cards-->
+            <div class="card light" id="item-1">
+                <!--Card 1-->
+                <div class="l-1">
+                    <a href="https://achunetflix.ccbp.tech/" id="pj-link">🔗Project Link</a>
+                    <h3>Netflix Home-Page</h3>
+
+                </div>
+                <img src="https://img.freepik.com/premium-psd/netflix-icon-isolated-3d-rendering_220664-698.jpg?w=740" id="netflix-img">
+                <p>Netflix, a global entertainment streaming giant, has redefined the way we consume content. With a vast library spanning movies, TV shows, documentaries, and original productions, Netflix offers a personalized and immersive viewing experience.</p>
+            </div>
+            <div class="card light" id="item-2">
+                <!--Card 1-->
+                <div class="l-1">
+                    <a href="https://achutask2.ccbp.tech/" id="pj-link">🔗Project Link</a>
+                    <h3>Temperature Converter</h3>
+
+                </div>
+                <img src="https://img.freepik.com/free-vector/air-quality-monitor-abstract-concept-illustration_335657-1884.jpg?w=740&t=st=1700063714~exp=1700064314~hmac=f6a86b3c165083d93f9c5a003d4844b073c1338eb3648b5782536083d84ad66d" id="netflix-img">
+                <p>The temperature converter is a handy tool that simplifies the process of converting temperatures between Fahrenheit, Celsius, and Kelvin.
+                    With a user-friendly interface,
+                    it enables quick and precise conversions, making it a valuable asset for anyone needing to navigate temperature differences effortlessly.</p>
+            </div>
+        </div>
+    </section>
+    <!--Section Projects-->
+    <h1 id="skills">Skills</h1>
+    <div class="card">
+        <h2>HTML</h2>
+    </div>
+
+    <div class="card">
+        <h2>CSS</h2>
+    </div>
+
+    <div class="card">
+        <h2>JavaScript</h2>
+    </div>
+
+    <div class="card">
+        <h2>Bootstrap</h2>
+    </div>
+    <section class="orange" id="portfolio">
+
+        <!--Class .orange-->
+        <h2>Certification's</h2>
+        <div class="card-container">
+            <div class="card" id="item-2">
+                <p class="sub-title">Mahendra Pride</p>
+                <img src="https://i.ibb.co/dP9YMyT/Screenshot-2023-11-14-104732.png" id="cr-img" alt="Mahendra Pride Image">
+            </div>
+
+            <div class="card" id="item-2">
+                <p class="sub-title">Social Media Marketing by Younity</p>
+                <img src="https://i.ibb.co/9r0128p/Screenshot-2023-11-14-104821.png" id="cr-img" alt="Social Media Marketing Image">
+            </div>
+
+        </div>
+
+    </section>
+    <!--Script-->
+    <!--Script Font Awesome-->
+    <script src="https://kit.fontawesome.com/33ad9a8292.js" crossorigin="anonymous"></script>
+    <!--Script Main Files-->
+    <script src="assets/js/main.js"></script>
+    <!--Script Particles.js-->
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!--Script AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        const navMenu = document.getElementById('nav-menu'),
+            toggleMenu = document.getElementById('nav-toggle');
+
+        toggleMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('show')
+        })
+
+        window.addEventListener("scroll", function() {
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+            header.classList.toggle("light", window.scrollY > 0);
+        })
+
+        AOS.init();
+    </script>
+</body>
+
+</html>
